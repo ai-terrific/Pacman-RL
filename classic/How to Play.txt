@@ -1,0 +1,13 @@
+Windows:
+
+1. Requirement: Python3 and following packages(pygame, numpy, argparse, matplotlib)
+
+2. Open cmd and go to the directory, run >python pacman.py
+   , and then the game will run in default settings
+
+3. Can tweak parameters from command line, e.g. >python pacman.py -epsilon 0.08 -trainEpi 70
+
+4. RL algorithm hyper parameters: -epsilon -gamma, -lr
+   training/testing parameters(stand for training episodes and the delay between two frames): -trainEpi -trainDelay -testEpi -testDelay
+   game settings: -grid(choose from "miniGrid, xsmallGrid, smallGrid, mediumGrid, largeGrid")
+   during training, click "SAVE Q TABLE" to save a checkpoint; closing the window does not save automatically

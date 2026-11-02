@@ -1,0 +1,10 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Generated Q-learning data
+/qtable.npy
+*.tmp
+
+# IDE settings
+.idea/
